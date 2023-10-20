@@ -1,0 +1,121 @@
+.mynav {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 53%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.loading-page {
+  background-image: url("../img/India-Cricket.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loading-page > .content-items {
+  display: flex;
+  color: aliceblue;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  padding: 25px;
+  background: rgba(0, 115, 255, 0.333);
+}
+.loading-page > .content-items > p {
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  text-align: center;
+}
+
+#worldCup-1 {
+  text-align: center;
+  margin: 30px;
+}
+#worldCup-1 > h1 {
+  font-size: 45px;
+  color: rgb(11, 7, 40);
+  margin-top: 30px;
+}
+
+#worldCup-1 > p {
+  margin-top: 30px;
+}
+
+#indianTeam-1 {
+  text-align: center;
+  margin-top: 50px;
+}
+#indianTeam-1 > h1 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(11, 7, 40);
+}
+
+#indianTeam-1 > p {
+  text-align: center;
+  margin: 30px;
+}
+#imageGroup-1 {
+  text-align: center;
+}
+#imageGroup-1 > img {
+  margin: 20px;
+  border: solid;
+  border-color: aqua;
+
+  border-radius: 25px;
+}
+#indianTeam-2 > h1,
+p {
+  text-align: center;
+  margin: 50px;
+}
+#indianTeam-2 > img {
+  margin: 20px;
+  border: solid;
+  border-color: aqua;
+
+  border-radius: 25px;
+}
+#personCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+}
+#personCards > div > img {
+  border-radius: 25px;
+  margin: 20px;
+  border: solid;
+  border-color: aqua;
+}
+#personCards > div > p {
+  border-radius: 25px;
+  margin: 5px;
+  /* border: solid; */
+  /* border-color: aqua; */
+}
+#personCards > div > button {
+  /* make center */
+  margin: 50px;
+  margin-top: 10px;
+  background-color: rgba(196, 38, 38, 0.773);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  padding: 20px;
+  color: aliceblue;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px rgba(248, 246, 246, 1);
+}
+
+footer {
+  margin-top: 100vh;
+  text-align: center;
+  margin-bottom: 50px;
+}
